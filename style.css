@@ -173,15 +173,15 @@ footer nav a:hover {
 @media (max-width:600px) {
     
     header p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     header nav a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     section.titolo h2 {
-        font-size: 76px;
+        font-size: 66px;
     }
 
     section.titolo p {
@@ -208,11 +208,11 @@ footer nav a:hover {
     }
 
     footer p {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     footer nav a {
-        font-size: 12px;
+        font-size: 10px;
     }
 
 }
