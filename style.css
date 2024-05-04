@@ -76,7 +76,7 @@ section.titolo p {
     margin: auto;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
-    padding: 0px 20px;
+    padding: 0px 20px 60px 20px;
 }
 
 .text h2 {
@@ -101,9 +101,13 @@ section.cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     max-width: 998px;
-    padding: 60px 20px;
+    padding: 0px 20px 60px 20px;
     margin: auto;
     gap: 20px;
+}
+
+.overlay:hover {
+    opacity: 0.5;
 }
 
 section.cards a {
@@ -170,6 +174,19 @@ footer nav a:hover {
     color: white;
 }
 
+section.work {
+    column-count: 3;
+    column-gap: 20px;
+    max-width: 998px;
+    padding: 0px 20px 60px 20px;
+    margin: auto;
+    gap: 20px;
+}
+
+section.work img {
+    margin-bottom: 20px;
+}
+
 @media (max-width:600px) {
     
     header p {
@@ -207,6 +224,10 @@ footer nav a:hover {
         padding: 0;
     }
 
+    section.work {
+        column-count: 1;
+    }
+
     footer p {
         font-size: 12px;
     }
@@ -216,4 +237,3 @@ footer nav a:hover {
     }
 
 }
-
