@@ -220,7 +220,7 @@ footer nav a:hover {
 @media (max-width:300px) {
     
     header p {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     header nav a {
@@ -228,14 +228,14 @@ footer nav a:hover {
     }
     
     section.titolo h2 {
-        font-size: 56px;
+        font-size: 46px;
     }
 
     footer p {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     footer nav a {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
